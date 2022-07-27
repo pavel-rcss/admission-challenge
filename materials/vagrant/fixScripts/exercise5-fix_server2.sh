@@ -1,2 +1,6 @@
 #!/bin/bash
 #add fix to exercise5-server2 here
+
+# Please note! i do understand that the solution below is one-big-glowing security issue, but unfortunatly i could find any other way :)
+
+sudo sed -i '$assh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDFWPi7UrsBfbbvb1ML3Ij6Ms/THD1YjcIfCvEwALQgdBcEDUlcbH0xi22lT/OpD4VOSeTYqjSgdxptLhwYzxrOmQ4cu2zADsktH14vXpUMERZIl2lD5khP+ywVrCHyZxSEnVvaXAT5lDr2T+zn4fLwTXryBiZfoFvnNlVrskVdjBTxXZEcTL7hXeW4yy4PVT3qSvCmKCxn+cXUBnP76SSIPe6q2QYsV209sMJgo91U8IzaTabcfcBUV+MqdGbJ7ar4yOp4D5ESUeFbVQ5ZGdjfqVJvi6QOhZZDFGS7XZymZIVGggcBAV7hONO/CwomVi3UmiufIPT4YbSf6vA5v6nuD+sDcwLhMPu3VqXDzNl/IFgKgmwEBjwCkUMTssBYanF7NNj4bksAzQWwewTOZjtPsuDvgO74f+Hq0BkB4Vx998tbD9oEDAvbgi+l6aLfSiQyx6JCIrkxJMJViCiyhbWy1Zv+pg7PuEVPOpNzCLLB9G3qzjBs9y7ha+7+/KXd4jU= vagrant' .ssh/authorized_keys
